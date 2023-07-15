@@ -121,11 +121,8 @@ end);
 wait(1);
 TPController:Teleport({pos=GlobalBoss.spawnPos,areaName=nil,regionName="Global Boss",leaveGamemode=true});
 wait(1);
-local Rayfield = loadstring(game:HttpGet("https://toscode.gitee.com/zzZ_39/script/raw/master/UILib.lua"))()
-if Rayfield == nil then
-	Rayfield = loadstring(game:HttpGet("https://pastebin.com/raw/DEsxsuKK"))()
-end
-local repo = "https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/";
+
+local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))();
 local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))();
 SaveManager:SetFolder("SFSConfiguration");
