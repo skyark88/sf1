@@ -1082,7 +1082,7 @@ local AutoEasyDungeonToggle = GameMode:CreateToggle({
 
 local EasyReachSlider = GameMode:CreateSlider({
    Name = "Leave at Room",
-   Range = {1, 80},
+   Range = {1, 180},
    Increment = 1,
    Suffix = "",
    CurrentValue = 50,
